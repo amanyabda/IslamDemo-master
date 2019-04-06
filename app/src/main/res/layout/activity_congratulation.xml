@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout
+    android:background="#d7efd6"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/a1"
+        android:layout_width="80dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/tex1"
+        android:textSize="30dp"
+        android:textColor="#98cf55"
+        android:gravity="center_horizontal"
+        android:text="تهنئة برمضان"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/one_prayer_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tex2"
+        android:textSize="30dp"
+        android:textColor="#98cf55"
+        android:gravity="center_horizontal"
+        android:text="تهنئة بالافطار"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/one_prayer_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tex3"
+        android:textSize="30dp"
+        android:textColor="#98cf55"
+        android:gravity="center_horizontal"
+        android:text="تهنئة ب عيد الفطر"
+        android:layout_marginTop="35dp"
+        android:background="@drawable/one_prayer_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+</ScrollView>
